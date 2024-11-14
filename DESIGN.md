@@ -12,4 +12,5 @@ integers, there are two duplicates, which are 1 and 1. To check for the integers
 3. We could handle case and digit modifications separately. We can hash and generate only case modifications, and then
 separately hash and generate only digit modifications. With having these work separately, it avoids repeated and redundant
 work to ensure smooth and non overlapping ways. Another way I can chnage my implementation is already have all the 
-possible outcomes for each character ready and hash each entry sepretely
+possible outcomes for each character ready and hash each entry sepretely. If there are multiple numbers that are repeated,
+we can already have a test written for that digit instead of going through every instance of the 9 digits. This really helps with hashing as it lowers the amount of the time it needs to hash charcaters and numbers. It helps reduce repeated and redundant work as it lowers the number of hashing and helps speed up the process. 
